@@ -4,3 +4,5 @@
 !colors/**
 !keymaps/
 !keymaps/**
+!options/
+!options/AceJump.xml
