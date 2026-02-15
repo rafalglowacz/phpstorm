@@ -1,0 +1,134 @@
+<keymap version="1" name="VSCode copy" parent="VSCode">
+  <action id="AIAssistant.ToolWindow.ShowOrFocus">
+    <keyboard-shortcut first-keystroke="alt 6" />
+  </action>
+  <action id="AceAction" />
+  <action id="AceLineAction" />
+  <action id="AceTargetAction" />
+  <action id="AceWordAction">
+    <keyboard-shortcut first-keystroke="alt n" />
+  </action>
+  <action id="Back">
+    <mouse-shortcut keystroke="button4" />
+    <keyboard-shortcut first-keystroke="ctrl minus" />
+  </action>
+  <action id="EditorChooseLookupItem">
+    <keyboard-shortcut first-keystroke="ctrl t" />
+  </action>
+  <action id="EditorChooseLookupItemReplace">
+    <keyboard-shortcut first-keystroke="alt t" />
+  </action>
+  <action id="EditorDecreaseFontSize" />
+  <action id="EditorDecreaseFontSizeGlobal">
+    <keyboard-shortcut first-keystroke="shift ctrl minus" />
+  </action>
+  <action id="EditorDownWithSelection">
+    <keyboard-shortcut first-keystroke="shift down" />
+  </action>
+  <action id="EditorIncreaseFontSize" />
+  <action id="EditorIncreaseFontSizeGlobal">
+    <keyboard-shortcut first-keystroke="shift ctrl equals" />
+  </action>
+  <action id="EditorStartNewLine">
+    <keyboard-shortcut first-keystroke="shift enter" />
+  </action>
+  <action id="EditorToggleUseSoftWraps">
+    <keyboard-shortcut first-keystroke="alt w" />
+  </action>
+  <action id="EditorUpWithSelection">
+    <keyboard-shortcut first-keystroke="shift up" />
+  </action>
+  <action id="FileChooser.GotoModule" />
+  <action id="FileChooser.NewFile" />
+  <action id="Forward">
+    <mouse-shortcut keystroke="button5" />
+    <keyboard-shortcut first-keystroke="ctrl alt minus" />
+  </action>
+  <action id="Git.ContextMenu">
+    <keyboard-shortcut first-keystroke="ctrl alt g" />
+  </action>
+  <action id="GoToTab1">
+    <keyboard-shortcut first-keystroke="ctrl 1" />
+  </action>
+  <action id="GoToTab2">
+    <keyboard-shortcut first-keystroke="ctrl 2" />
+  </action>
+  <action id="GoToTab3">
+    <keyboard-shortcut first-keystroke="ctrl 3" />
+  </action>
+  <action id="GoToTab4">
+    <keyboard-shortcut first-keystroke="ctrl 4" />
+  </action>
+  <action id="GoToTab5">
+    <keyboard-shortcut first-keystroke="ctrl 5" />
+  </action>
+  <action id="GotoBookmark0" />
+  <action id="GotoBookmark1" />
+  <action id="GotoBookmark2" />
+  <action id="GotoBookmark3" />
+  <action id="GotoBookmark4" />
+  <action id="GotoBookmark5" />
+  <action id="GotoSymbol">
+    <keyboard-shortcut first-keystroke="shift ctrl o" />
+  </action>
+  <action id="InsertInlineCompletionAction">
+    <keyboard-shortcut first-keystroke="right" />
+  </action>
+  <action id="Log.JumpToSource" />
+  <action id="ManageRecentProjects">
+    <keyboard-shortcut first-keystroke="shift ctrl alt p" />
+  </action>
+  <action id="MethodDown">
+    <keyboard-shortcut first-keystroke="shift ctrl down" />
+  </action>
+  <action id="MethodUp">
+    <keyboard-shortcut first-keystroke="shift ctrl up" />
+  </action>
+  <action id="NewElement">
+    <keyboard-shortcut first-keystroke="alt insert" />
+    <keyboard-shortcut first-keystroke="ctrl n" />
+  </action>
+  <action id="NextDiff" />
+  <action id="OpenFileInCursor">
+    <keyboard-shortcut first-keystroke="shift ctrl alt a" />
+  </action>
+  <action id="OpenProjectInCursor" />
+  <action id="Pause" />
+  <action id="PhpListenDebugAction">
+    <keyboard-shortcut first-keystroke="ctrl alt l" />
+  </action>
+  <action id="QuickEvaluateExpression">
+    <keyboard-shortcut first-keystroke="ctrl alt f8" />
+    <keyboard-shortcut first-keystroke="f6" />
+  </action>
+  <action id="QuickImplementations">
+    <keyboard-shortcut first-keystroke="alt space" />
+  </action>
+  <action id="ReformatWithPrettierAction" />
+  <action id="RunToCursor">
+    <keyboard-shortcut first-keystroke="alt f9" />
+    <keyboard-shortcut first-keystroke="f8" />
+  </action>
+  <action id="ShowErrorDescription">
+    <keyboard-shortcut first-keystroke="ctrl f1" />
+    <keyboard-shortcut first-keystroke="alt e" />
+  </action>
+  <action id="ShowHoverInfo">
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl k" />
+  </action>
+  <action id="ShowIntentionActions">
+    <keyboard-shortcut first-keystroke="ctrl period" />
+    <keyboard-shortcut first-keystroke="alt enter" />
+  </action>
+  <action id="StepInto">
+    <keyboard-shortcut first-keystroke="f11" />
+    <keyboard-shortcut first-keystroke="f7" />
+  </action>
+  <action id="TerminalDecreaseFontSize" />
+  <action id="VcsGroups">
+    <keyboard-shortcut first-keystroke="alt g" />
+  </action>
+  <action id="ZoomInIdeAction" />
+  <action id="ZoomOutIdeAction" />
+  <action id="com.anthropic.code.plugin.actions.OpenClaudeInTerminalAction" />
+</keymap>
