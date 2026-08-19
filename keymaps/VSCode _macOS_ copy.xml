@@ -41,18 +41,26 @@
   <action id="ActivateStructureToolWindow">
     <keyboard-shortcut first-keystroke="alt 7" />
   </action>
+  <action id="ActivateVcsChangesToolWindow">
+    <keyboard-shortcut first-keystroke="alt 4" />
+  </action>
   <action id="Back">
     <keyboard-shortcut first-keystroke="ctrl minus" />
     <mouse-shortcut keystroke="button4" />
     <keyboard-shortcut first-keystroke="meta minus" />
     <keyboard-shortcut first-keystroke="ctrl o" />
   </action>
+  <action id="Bitbucket.CopyFileUrlInBitbucket" />
+  <action id="Bitbucket.CreatePullRequest" />
+  <action id="Bitbucket.CreateSnippet" />
+  <action id="Bitbucket.OpenFileInBitbucket" />
   <action id="CloseAllEditorsButActive">
     <keyboard-shortcut first-keystroke="meta alt t" />
   </action>
   <action id="CloseAllUnpinnedEditors">
     <keyboard-shortcut first-keystroke="meta k" second-keystroke="w" />
   </action>
+  <action id="Code.Review.Editor.New.Comment" />
   <action id="CodeCompletion">
     <keyboard-shortcut first-keystroke="meta i" />
     <keyboard-shortcut first-keystroke="alt escape" />
@@ -172,6 +180,8 @@
   </action>
   <action id="FileChooser.GotoModule" />
   <action id="FileChooser.NewFile" />
+  <action id="FocusMainToolbar" />
+  <action id="FocusStatusBar" />
   <action id="Forward">
     <keyboard-shortcut first-keystroke="shift ctrl minus" />
     <mouse-shortcut keystroke="button5" />
@@ -211,6 +221,9 @@
   <action id="GoToTab8">
     <keyboard-shortcut first-keystroke="meta 8" />
   </action>
+  <action id="GotoClass">
+    <keyboard-shortcut first-keystroke="alt c" />
+  </action>
   <action id="GotoNextBookmarkInEditor">
     <keyboard-shortcut first-keystroke="shift meta alt down" />
   </action>
@@ -223,7 +236,10 @@
   <action id="GotoSymbol">
     <keyboard-shortcut first-keystroke="shift meta o" />
   </action>
-  <action id="HideSideWindows" />
+  <action id="HideActiveWindow" />
+  <action id="HideSideWindows">
+    <keyboard-shortcut first-keystroke="meta j" />
+  </action>
   <action id="ImplementMethods" />
   <action id="InsertInlineCompletionAction">
     <keyboard-shortcut first-keystroke="alt s" />
@@ -245,6 +261,9 @@
     <keyboard-shortcut first-keystroke="meta n" />
   </action>
   <action id="NewFile" />
+  <action id="NextDiff">
+    <keyboard-shortcut first-keystroke="alt page_down" />
+  </action>
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="ctrl page_down" />
   </action>
@@ -262,6 +281,9 @@
   </action>
   <action id="PinActiveTab">
     <keyboard-shortcut first-keystroke="alt p" />
+  </action>
+  <action id="PreviousDiff">
+    <keyboard-shortcut first-keystroke="alt page_up" />
   </action>
   <action id="PreviousTab">
     <keyboard-shortcut first-keystroke="ctrl page_up" />
@@ -337,6 +359,7 @@
     <keyboard-shortcut first-keystroke="shift meta f9" />
   </action>
   <action id="com.anthropic.code.plugin.actions.OpenClaudeInTerminalAction" />
+  <action id="com.jetbrains.php.framework.FrameworkRunConsoleAction" />
   <action id="com.laravel_idea.plugin.GenerateHelperCodeAction">
     <keyboard-shortcut first-keystroke="shift ctrl period" />
   </action>
