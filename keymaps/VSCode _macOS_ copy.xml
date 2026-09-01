@@ -369,7 +369,9 @@
   <action id="com.mnw.tabmover.actions.MoveTabDownAction">
     <keyboard-shortcut first-keystroke="meta alt right" />
   </action>
-  <action id="com.mnw.tabmover.actions.MoveTabToFirstAction" />
+  <action id="com.mnw.tabmover.actions.MoveTabToFirstAction">
+    <keyboard-shortcut first-keystroke="meta alt home" />
+  </action>
   <action id="com.mnw.tabmover.actions.MoveTabToLastAction" />
   <action id="com.mnw.tabmover.actions.MoveTabToNewWindow" />
   <action id="com.mnw.tabmover.actions.MoveTabToNextWindow" />
