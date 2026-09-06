@@ -2,7 +2,9 @@
 	path = colors
 	url = git@github.com:rafalglowacz/jetbrains-config-color-scheme.git
 	branch = main
+	update = merge
 [submodule "codestyles"]
 	path = codestyles
 	url = git@github.com:rafalglowacz/jetbrains-config-code-styles.git
 	branch = main
+	update = merge
