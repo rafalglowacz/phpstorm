@@ -44,6 +44,9 @@
   <action id="ActivateVcsChangesToolWindow">
     <keyboard-shortcut first-keystroke="alt 4" />
   </action>
+  <action id="ActivateVersionControlToolWindow">
+    <keyboard-shortcut first-keystroke="alt 5" />
+  </action>
   <action id="Back">
     <keyboard-shortcut first-keystroke="ctrl minus" />
     <mouse-shortcut keystroke="button4" />

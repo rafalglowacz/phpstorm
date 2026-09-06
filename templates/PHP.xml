@@ -41,7 +41,7 @@
     </context>
   </template>
   <template name="xb" value="$COND$xdebug_break();" description="" toReformat="false" toShortenFQNames="true">
-    <variable name="COND" expression="" defaultValue="&quot;if () &quot;" alwaysStopAt="true" />
+    <variable name="COND" expression="" defaultValue="&quot;if (php_sapi_name() !== 'cli') &quot;" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
     </context>
@@ -53,6 +53,17 @@
     </context>
   </template>
   <template name="t" value="$this-&gt;" description="$this" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="iigx" value="if (($GLOBALS['x'] = ($GLOBALS['x'] ?? 0) + 1) === 1) {&#10;    $END$    &#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="iigxb" value="if (($GLOBALS['x'] = ($GLOBALS['x'] ?? 0) + 1) === 1) {&#10;    $COND$xdebug_break();    &#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="COND" expression="" defaultValue="&quot;if (php_sapi_name() !== 'cli') &quot;" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
     </context>
